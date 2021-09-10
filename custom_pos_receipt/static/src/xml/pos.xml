@@ -21,13 +21,17 @@
                       <t t-if="widget.pos.company.website">
                         <t t-esc="widget.pos.company.website"/>,
                     </t>
+                     <br/>
                       <t t-if="widget.pos.company.email">
+                             <span>Email:</span>
                         <t t-esc="widget.pos.company.email"/>,
                     </t>
                      <br/>
                       <t t-if="widget.pos.company.phone">
+                            <span>Tel:</span>
                         <t t-esc="widget.pos.company.phone"/>,
                     </t>
+                     <br/>
                     <t t-if="widget.pos.company.vat">
                         <br/>
                         <strong>NIF</strong>
@@ -73,19 +77,17 @@
                 <table class="receipt-orderlines">
                     <thead>
                         <tr>
-                            <th class="pos-receipt-center-align" width="1%">
+                            <th class="pos-receipt-center-align" width="13%">
                                 <strong>Qty</strong>
                             </th>
-                            <th width="77%">
+                            <th width="47%">
                                 <strong>Product</strong>
                             </th>
-                            <th width="6%">
+                            <th  width="15%">
                                 <strong>$/Unit</strong>
                             </th>
-                            <th width="6%">
-                                <strong>Tax</strong>
-                            </th>
-                            <th class="pos-right-align" width="10%">
+
+                            <th class="pos-right-align" width="25%">
                                 <strong>Value</strong>
                             </th>
 
@@ -112,11 +114,12 @@
                         </td>
                     </tr>
                     <tr t-as="orderline" t-foreach="orderlines">
-                        <td class="pos-receipt-center-align" width="1%">
+                        <td class="pos-receipt-center-align" width="13%">
                             <t t-esc="orderline.get_quantity_str_with_unit()"/>
 
+
                         </td>
-                        <td width="77%">
+                        <td width="47%">
                             <t t-esc="orderline.get_product().display_name"/>
                             <t t-if="widget.pos.config.on_product_line">
                                 <div class="pos-disc-font">
@@ -128,13 +131,11 @@
                                 </div>
                             </t>
                         </td>
-                        <td width="6%">
+                        <td width="15%">
                             <t t-esc="widget.format_currency_no_symbol(orderline.price)"/>
                         </td>
-                        <td width="6%">
-                            <t t-esc="widget.format_currency_no_symbol(orderline.get_tax())"/>
-                        </td>
-                        <td class="pos-right-align" width="10%">
+
+                        <td class="pos-right-align" width="25%">
                             <t t-esc="widget.format_currency_no_symbol(orderline.get_display_price())"/>
                         </td>
 
