@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- © 2020 CorTex IT Solutions Ltd. <https://cortexsolutions.net/>
+     License OPL-1 -->
+<odoo>
+  <data>
+
+    <template id="assets_backend" inherit_id="web.assets_backend">
+      <xpath expr="." position="inside">
+        <script type="text/javascript" src="/remove_decimal_zero_trailing/static/src/js/field_utils.js"></script>
+      </xpath>
+    </template>
+
+  </data>
+</odoo>
