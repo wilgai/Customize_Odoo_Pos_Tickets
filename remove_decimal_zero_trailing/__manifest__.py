@@ -16,14 +16,12 @@ Decimal Precision drop zeros
 Hide Decimal Zero Trailing
     """,
 
-    'author': 'CorTex IT Solutions Ltd.',
-    'website': 'https://cortexsolutions.net',
+    'author': 'Wilgaisoft.',
+    'website': 'http://www.wilgaisoft.net.net',
     'license': 'OPL-1',
-    'support': 'support@cortexsolutions.net',
+    'support': 'support@wilgaisoft.net',
 
-    # Categories can be used to filter modules in modules listing
-    # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
-    # for the full list
+
     'category': 'Extra Tools',
     'version': '13.0.1.0.0',
 
@@ -33,6 +31,6 @@ Hide Decimal Zero Trailing
     'data': [
         "views/templates.xml",
     ],
-    'images': ['static/description/main_screenshot.png'],
+    'images': [],
     "installable": True
 }

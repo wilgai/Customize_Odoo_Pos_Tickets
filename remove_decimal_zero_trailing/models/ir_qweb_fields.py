@@ -3,8 +3,9 @@
 # License OPL-1
 
 from odoo import api, models
-from odoo.tools import  float_utils, pycompat
+from odoo.tools import float_utils, pycompat
 import re
+
 
 class MonetaryConverter(models.AbstractModel):
     _inherit = 'ir.qweb.field.monetary'
@@ -34,7 +35,8 @@ class MonetaryConverter(models.AbstractModel):
         else:
             post = u'\N{NO-BREAK SPACE}{symbol}'.format(symbol=display_currency.symbol or '')
 
-        return u'{pre}<span class="oe_currency_value">{0}</span>{post}'.format(formatted_amount.rstrip('0').rstrip('.'), pre=pre, post=post)
+        return u'{pre}<span class="oe_currency_value">{0}</span>{post}'.format(formatted_amount.rstrip(''), pre=pre,
+                                                                               post=post)
 
 
 class FloatConverter(models.AbstractModel):
@@ -62,4 +64,4 @@ class FloatConverter(models.AbstractModel):
         if precision is None:
             formatted = re.sub(r'(?:(0|\d+?)0+)$', r'\1', formatted)
 
-        return pycompat.to_text(formatted.rstrip('0').rstrip('.'))
+        return pycompat.to_text(formatted.rstrip('0').rstrip(',.'))

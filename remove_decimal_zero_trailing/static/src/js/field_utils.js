@@ -21,7 +21,7 @@ function formatFloat(value, field, options) {
     }
     var formatted = _.str.sprintf('%.' + precision + 'f', value || 0).split('.');
     formatted[0] = utils.insert_thousand_seps(formatted[0]);
-    return formatted.join(l10n.decimal_point).replace(/0+$/g, "").replace(/[.]$/,".0");
+    return formatted.join(l10n.decimal_point).replace(/0+$/g, "0").replace(/[.]$/,".0");
 }
 
 function formatMonetary(value, field, options) {
