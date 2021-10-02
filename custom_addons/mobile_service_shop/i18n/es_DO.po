@@ -1,0 +1,1098 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mobile_service_shop
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-02 12:48+0000\n"
+"PO-Revision-Date: 2021-10-02 12:48+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: mobile_service_shop
+#: model:mail.template,body_html:mobile_service_shop.email_template_mobile_service
+msgid ""
+"\n"
+"                <p>Dear ${object.person_name.name},</p>\n"
+"                <p>Your service request for ${object.brand_name.brand_name or 'n/a' } (${object.model_name.mobile_brand_models or 'n/a' }) with reference no <b>${object.name or 'n/a' }</b> has been processed to <b>${object.service_state or 'n/a' }</b> stage.</p>\n"
+"                <p>If you have any questions, please let us know.</p>\n"
+"                <p>Best regards,</p>\n"
+"            "
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__invoice_count
+msgid "# Invoice"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_ticket_template
+msgid ""
+"<span>Keep this ticket safely for future reference.</span><br/>\n"
+"                   <span>Issue Date :</span>"
+msgstr "<span>Guarde este boleto en un lugar seguro para futuras consultas..</span><br/>\n  <span>Fecha :</span>"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_ticket_template
+msgid "<span>The device is in warranty range !!</span>"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_ticket_template
+msgid "<strong>Customer name </strong>"
+msgstr "<strong>Cliente </strong>"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_ticket_template
+msgid "<strong>Ref no </strong>"
+msgstr "<strong>Núm. ref </strong>"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_ticket_template
+msgid "<strong>Requested date </strong>"
+msgstr "<strong>Fecha de ingreso </strong>"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_ticket_template
+msgid "<strong>Return date </strong>"
+msgstr "<strong>Fecha de entrega </strong>"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_ticket_template
+msgid "<strong>Terms and Conditions</strong>"
+msgstr "Terminos y condiciones"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__message_needaction
+msgid "Action Needed"
+msgstr "Acción requeridad"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__activity_ids
+msgid "Activities"
+msgstr "Actividades"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__city
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__country_id
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__state_id
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__street
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__street2
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__zip
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_form_view
+msgid "Address"
+msgstr "Dirección"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields.selection,name:mobile_service_shop.selection__mobile_invoice__advance_payment_method__advance
+msgid "Advance"
+msgstr "Avance"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_invoice__amount
+msgid "Amount"
+msgstr "Monto"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_form_view
+msgid "Assign to technician"
+msgstr "Asignar al técnico"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields.selection,name:mobile_service_shop.selection__mobile_service__service_state__assigned
+msgid "Assigned"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.actions.act_window,name:mobile_service_shop.action_mobile_brand
+#: model:ir.ui.menu,name:mobile_service_shop.mobile_service_shop_conf1
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_brand_form_view
+msgid "Brand"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_brand_model_form_view
+msgid "Brand Model"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_product_product__brand_name
+#: model:ir.model.fields,field_description:mobile_service_shop.field_product_template__brand_name
+msgid "Brand Name"
+msgstr "Marca"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_form_view
+msgid "Brand name"
+msgstr "Marca"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.view_mobile_create_inv
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_complaint_tree__complaint_type_tree
+msgid "Category"
+msgstr "Categoría"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_form_view
+msgid "City"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model_terms:ir.actions.act_window,help:mobile_service_shop.action_mobile_brand
+#: model_terms:ir.actions.act_window,help:mobile_service_shop.action_mobile_brand_models
+#: model_terms:ir.actions.act_window,help:mobile_service_shop.action_mobile_complaint_template
+#: model_terms:ir.actions.act_window,help:mobile_service_shop.action_mobile_complaint_type
+#: model_terms:ir.actions.act_window,help:mobile_service_shop.action_mobile_service_request
+#: model_terms:ir.actions.act_window,help:mobile_service_shop.action_mobile_terms_and_conditions
+msgid "Click to Create a New Record."
+msgstr ""
+
+#. module: mobile_service_shop
+#: model_terms:ir.actions.act_window,help:mobile_service_shop.product_template_action_product
+msgid "Click to define a new product."
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_product_product__model_colour
+#: model:ir.model.fields,field_description:mobile_service_shop.field_product_template__model_colour
+msgid "Colour"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__company_id
+msgid "Company"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_complaint_tree__complaint_id
+msgid "Complaint"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_complaint_description__description
+msgid "Complaint Description"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_complaint_template_form_view
+msgid "Complaint Template"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.ui.menu,name:mobile_service_shop.mobile_service_shop_conf6
+msgid "Complaint Templates"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_complaint__complaint_type
+#: model:ir.ui.menu,name:mobile_service_shop.mobile_service_shop_conf2
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_complaint_type_form_view
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_terms_and_conditions_form_view
+msgid "Complaint Type"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_complaint_description__complaint_type_template
+msgid "Complaint Type Template"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.actions.act_window,name:mobile_service_shop.action_mobile_complaint_template
+#: model:ir.actions.act_window,name:mobile_service_shop.action_mobile_complaint_type
+msgid "Complaint Types"
+msgstr "Tipo de avería"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_form_view
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_ticket_template
+msgid "Complaints"
+msgstr "Averías"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__complaints_tree
+msgid "Complaints Tree "
+msgstr "Arbol de Averías"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields.selection,name:mobile_service_shop.selection__mobile_service__service_state__completed
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_form_view
+msgid "Completed"
+msgstr "Completado"
+
+#. module: mobile_service_shop
+#: code:addons/mobile_service_shop/models/mobile_service.py:0
+#, python-format
+msgid "Compose Email"
+msgstr "Componer correo electrónico"
+
+#. module: mobile_service_shop
+#: model:ir.ui.menu,name:mobile_service_shop.mobile_service_shop_configuration
+msgid "Configuration"
+msgstr "Configuración"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__contact_no
+msgid "Contact Number"
+msgstr "Número de contacto"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_form_view
+msgid "Country"
+msgstr "Pais"
+
+#. module: mobile_service_shop
+#: code:addons/mobile_service_shop/models/mobile_service.py:0
+#: model:ir.actions.act_window,name:mobile_service_shop.action_mobile_service_inv
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_form_view
+#, python-format
+msgid "Create Invoice"
+msgstr "Crear Factura"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.view_mobile_create_inv
+msgid "Create Invoices"
+msgstr "Crear Facturas"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_brand_model__create_uid
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_brand__create_uid
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_complaint__create_uid
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_complaint_description__create_uid
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_complaint_tree__create_uid
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_invoice__create_uid
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__create_uid
+#: model:ir.model.fields,field_description:mobile_service_shop.field_product_order_line__create_uid
+#: model:ir.model.fields,field_description:mobile_service_shop.field_terms_conditions__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_brand_model__create_date
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_brand__create_date
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_complaint__create_date
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_complaint_description__create_date
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_complaint_tree__create_date
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_invoice__create_date
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__create_date
+#: model:ir.model.fields,field_description:mobile_service_shop.field_product_order_line__create_date
+#: model:ir.model.fields,field_description:mobile_service_shop.field_terms_conditions__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__person_name
+msgid "Customer Name"
+msgstr "Cliente"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__picking_transfer_id
+msgid "Deliver To"
+msgstr "Entregado a"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_complaint_tree__description_tree
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_form_view
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_ticket_template
+msgid "Description"
+msgstr "Descripcion"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_ticket_template
+msgid "Device brand"
+msgstr "Marca"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_ticket_template
+msgid "Detalle del dispositivo"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_brand_model__display_name
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_brand__display_name
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_complaint__display_name
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_complaint_description__display_name
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_complaint_tree__display_name
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_invoice__display_name
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__display_name
+#: model:ir.model.fields,field_description:mobile_service_shop.field_product_order_line__display_name
+#: model:ir.model.fields,field_description:mobile_service_shop.field_report_mobile_service_shop_mobile_service_ticket_template__display_name
+#: model:ir.model.fields,field_description:mobile_service_shop.field_terms_conditions__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields.selection,name:mobile_service_shop.selection__mobile_service__service_state__draft
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_search_view
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__email_id
+msgid "Email"
+msgstr "Correo"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__first_invoice_created
+msgid "First Invoice Created"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__first_payment_inv
+msgid "First Payment Inv"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__message_channel_ids
+msgid "Followers (Channels)"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields.selection,name:mobile_service_shop.selection__mobile_invoice__advance_payment_method__full_amount
+msgid "Full amount"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_search_view
+msgid "Group By"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_brand_model__id
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_brand__id
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_complaint__id
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_complaint_description__id
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_complaint_tree__id
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_invoice__id
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__id
+#: model:ir.model.fields,field_description:mobile_service_shop.field_product_order_line__id
+#: model:ir.model.fields,field_description:mobile_service_shop.field_report_mobile_service_shop_mobile_service_ticket_template__id
+#: model:ir.model.fields,field_description:mobile_service_shop.field_terms_conditions__id
+msgid "ID"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_ticket_template
+msgid "IMEI"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_ticket_template
+msgid "Device details"
+msgstr "Detalle del dispositivo"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__imei_no
+msgid "IMEI Number"
+msgstr "Núm. IMEI"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,help:mobile_service_shop.field_mobile_service__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,help:mobile_service_shop.field_mobile_service__message_needaction
+#: model:ir.model.fields,help:mobile_service_shop.field_mobile_service__message_unread
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,help:mobile_service_shop.field_mobile_service__message_has_error
+#: model:ir.model.fields,help:mobile_service_shop.field_mobile_service__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__is_in_warranty
+msgid "In Warranty"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__internal_notes
+msgid "Internal notes"
+msgstr "Notas interna"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_form_view
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.view_mobile_create_inv
+msgid "Invoice Service Order"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_invoice__advance_payment_method
+msgid "Invoice method"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_product_order_line__qty_invoiced
+msgid "Invoiced qty"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__invoice_ids
+msgid "Invoices"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.view_mobile_create_inv
+msgid ""
+"Invoices will be created in draft so that you can review\n"
+"                        them before validation."
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_product_product__is_a_parts
+#: model:ir.model.fields,field_description:mobile_service_shop.field_product_template__is_a_parts
+msgid "Is a Mobile Part"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__journal_type
+msgid "Journal"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_brand_model____last_update
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_brand____last_update
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_complaint____last_update
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_complaint_description____last_update
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_complaint_tree____last_update
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_invoice____last_update
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service____last_update
+#: model:ir.model.fields,field_description:mobile_service_shop.field_product_order_line____last_update
+#: model:ir.model.fields,field_description:mobile_service_shop.field_report_mobile_service_shop_mobile_service_ticket_template____last_update
+#: model:ir.model.fields,field_description:mobile_service_shop.field_terms_conditions____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_brand_model__write_uid
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_brand__write_uid
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_complaint__write_uid
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_complaint_description__write_uid
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_complaint_tree__write_uid
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_invoice__write_uid
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__write_uid
+#: model:ir.model.fields,field_description:mobile_service_shop.field_product_order_line__write_uid
+#: model:ir.model.fields,field_description:mobile_service_shop.field_terms_conditions__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_brand_model__write_date
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_brand__write_date
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_complaint__write_date
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_complaint_description__write_date
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_complaint_tree__write_date
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_invoice__write_date
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__write_date
+#: model:ir.model.fields,field_description:mobile_service_shop.field_product_order_line__write_date
+#: model:ir.model.fields,field_description:mobile_service_shop.field_terms_conditions__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:res.groups,name:mobile_service_shop.mobile_service_group_manager
+msgid "Manager"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_brand_model__mobile_brand_name
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_brand__brand_name
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__brand_name
+msgid "Mobile Brand"
+msgstr "Marca del dispositivo"
+
+#. module: mobile_service_shop
+#: model:ir.module.category,name:mobile_service_shop.mobile_service_execute
+#: model:ir.ui.menu,name:mobile_service_shop.mobile_service_main_menu
+msgid "Mobile Service"
+msgstr "Servicio móvil"
+
+#. module: mobile_service_shop
+#: model:product.template,name:mobile_service_shop.mobile_service_advance_product
+msgid "Mobile Service Advance"
+msgstr "Avance del servicio móvil"
+
+#. module: mobile_service_shop
+#: model:product.template,name:mobile_service_shop.mobile_service_product
+msgid "Mobile Service Charge"
+msgstr "Cargo por servicio móvil"
+
+#. module: mobile_service_shop
+#: model:ir.actions.report,name:mobile_service_shop.mobile_service_ticket
+msgid "Mobile Service Ticket"
+msgstr "Ticket de servicio móvil"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_form_view
+msgid "Mobile Shop"
+msgstr "Tienda de teléfonos móviles"
+
+#. module: mobile_service_shop
+#: model:res.groups,name:mobile_service_shop.mobile_service_group_executer
+msgid "Mobile Technician"
+msgstr "Técnico móvil"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__model_name
+msgid "Model"
+msgstr "Modelo"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_brand_model__mobile_brand_models
+#: model:ir.model.fields,field_description:mobile_service_shop.field_product_product__model_name
+#: model:ir.model.fields,field_description:mobile_service_shop.field_product_template__model_name
+msgid "Model Name"
+msgstr "Nombre del modelo"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_form_view
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_ticket_template
+msgid "Model name"
+msgstr "Nombre del modelo"
+
+#. module: mobile_service_shop
+#: model:ir.actions.act_window,name:mobile_service_shop.action_mobile_brand_models
+#: model:ir.ui.menu,name:mobile_service_shop.mobile_service_shop_conf3
+msgid "Models"
+msgstr "Modelos"
+
+#. module: mobile_service_shop
+#: code:addons/mobile_service_shop/models/mobile_service.py:0
+#: code:addons/mobile_service_shop/models/mobile_service.py:0
+#, python-format
+msgid "New"
+msgstr "Nuevo"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Fecha límite para la próxima actividad"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__activity_summary
+msgid "Next Activity Summary"
+msgstr "Resumen de la siguiente actividad"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__activity_type_id
+msgid "Next Activity Type"
+msgstr "Siguiente tipo de actividad"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_form_view
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_search_view
+msgid "Not Solved"
+msgstr "No resuelto"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields.selection,name:mobile_service_shop.selection__mobile_service__service_state__not_solved
+msgid "Not solved"
+msgstr "No resuelto"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_product_product__extra_descriptions
+#: model:ir.model.fields,field_description:mobile_service_shop.field_product_template__extra_descriptions
+msgid "Note"
+msgstr "Nota"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_form_view
+msgid "Notes used internally (eg: device password)"
+msgstr "Notas utilizadas internamente (por ejemplo: contraseña del dispositivo)"
+
+#. module: mobile_service_shop
+#: code:addons/mobile_service_shop/wizard/mobile_create_invoice.py:0
+#, python-format
+msgid "Nothing to create invoice"
+msgstr "Nada para crear factura"
+
+#. module: mobile_service_shop
+#: code:addons/mobile_service_shop/models/mobile_service.py:0
+#: code:addons/mobile_service_shop/models/mobile_service.py:0
+#, python-format
+msgid "Nothing to post stock move"
+msgstr "Nada para publicar movimiento de stock"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Numero de acciones"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__message_has_error_counter
+msgid "Number of errors"
+msgstr "Numero de errores"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,help:mobile_service_shop.field_mobile_service__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Número de mensajes que requieren una acción"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,help:mobile_service_shop.field_mobile_service__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensajes con error de entrega"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,help:mobile_service_shop.field_mobile_service__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Número de mensajes no leídos"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__product_order_line
+msgid "Parts Order Lines"
+msgstr "Líneas de pedido de piezas"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_form_view
+msgid "Parts Usage"
+msgstr "Piezas"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_products_parts
+msgid "Parts details"
+msgstr "Detalle de las piezas"
+
+#. module: mobile_service_shop
+#: model:ir.ui.menu,name:mobile_service_shop.mobile_service_shop_parts 
+msgid "Parts inventory"
+msgstr "Inventario de pieza"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__stock_picking_id
+msgid "Picking Id"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_form_view
+msgid "Post Stock moves"
+msgstr "Movimientos posteriores a existencias"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_product_order_line__part_price
+msgid "Price"
+msgstr "Precio"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_form_view
+msgid "Print Ticket"
+msgstr "Imprimir Comprobante"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_product_order_line__product_id
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_brand_model_view_kanban
+msgid "Product"
+msgstr "Producto"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_product_order_line__product_order_id
+msgid "Product Order"
+msgstr "Orden de producto"
+
+#. module: mobile_service_shop
+#: model:ir.model,name:mobile_service_shop.model_product_template
+msgid "Product Template"
+msgstr "Plantilla de producto"
+
+#. module: mobile_service_shop
+#: model:ir.actions.act_window,name:mobile_service_shop.product_template_action_product
+msgid "Products"
+msgstr "Productos"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__re_repair
+msgid "Re-repair"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,help:mobile_service_shop.field_mobile_service__re_repair
+msgid "Re-repairing."
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:mail.template,subject:mobile_service_shop.email_template_mobile_service
+msgid "Ref ${object.name or 'n/a' }"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__date_request
+msgid "Requested date"
+msgstr "Fecha de solicitud"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__activity_user_id
+msgid "Responsible User"
+msgstr "Empleado responsable"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_form_view
+msgid "Return advance"
+msgstr "Rembolsar avance"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__return_date
+msgid "Return date"
+msgstr "Fecha de entrega"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_form_view
+msgid "Return to customer"
+msgstr "Entregar"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields.selection,name:mobile_service_shop.selection__mobile_service__service_state__returned
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_search_view
+msgid "Returned"
+msgstr "Entregado"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Error de entrega de SMS"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_search_view
+msgid "Search in requests"
+msgstr "Buscar en solicitudes"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,help:mobile_service_shop.field_product_product__brand_name
+#: model:ir.model.fields,help:mobile_service_shop.field_product_template__brand_name
+msgid "Select a mobile brand for the part"
+msgstr "Seleccione una marca móvil para la pieza."
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,help:mobile_service_shop.field_product_product__model_name
+#: model:ir.model.fields,help:mobile_service_shop.field_product_template__model_name
+msgid "Select a model for the part"
+msgstr "Seleccione un modelo para la pieza"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_form_view
+msgid "Send email"
+msgstr "Enviar correo"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_graph
+msgid "Service Graph"
+msgstr "Gráfico de servicio"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_invoice__number
+msgid "Service Id"
+msgstr "ID de servicio"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__name
+msgid "Service Number"
+msgstr "Número de servicio"
+
+#. module: mobile_service_shop
+#: model:ir.actions.act_window,name:mobile_service_shop.action_mobile_service_request
+#: model:ir.ui.menu,name:mobile_service_shop.mobile_service_shop_menu2
+msgid "Service Request"
+msgstr "Solicitud de servicio"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_search_view
+msgid "Service State"
+msgstr "Estado de servicio"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__service_state
+msgid "Service Status"
+msgstr "Estado de servicio"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_ticket_template
+msgid "Service Ticket"
+msgstr "Orden de servicio"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_ticket_template
+msgid "Sl no."
+msgstr "Cant."
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,help:mobile_service_shop.field_product_product__is_a_parts
+#: model:ir.model.fields,help:mobile_service_shop.field_product_template__is_a_parts
+msgid "Specify if the product is a mobile part or not."
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,help:mobile_service_shop.field_mobile_service__is_in_warranty
+msgid "Specify if the product is in warranty."
+msgstr ""
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_form_view
+msgid "State"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,help:mobile_service_shop.field_mobile_service__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_product_order_line__qty_stock_move
+msgid "Stock Move Posted Qty"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_form_view
+msgid "Street 2..."
+msgstr ""
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_form_view
+msgid "Street..."
+msgstr ""
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_search_view
+msgid "Technician"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__technician_name
+msgid "Technician Name"
+msgstr "Técnico/a"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_terms_conditions__terms_id
+msgid "Terms"
+msgstr "Terminos"
+
+#. module: mobile_service_shop
+#: model:ir.actions.act_window,name:mobile_service_shop.action_mobile_terms_and_conditions
+#: model:ir.model.fields,field_description:mobile_service_shop.field_terms_conditions__terms_conditions
+#: model:ir.ui.menu,name:mobile_service_shop.mobile_service_shop_conf5
+msgid " <strong>Terms and Conditions</strong>"
+msgstr "<strong>Términos y condiciones</strong>"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,help:mobile_service_shop.field_mobile_service__picking_transfer_id
+msgid "This will determine picking type of outgoing shipment"
+msgstr "Esto determinará el tipo de picking de envío saliente."
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,help:mobile_service_shop.field_mobile_service__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Tipo de actividad de excepción registrada."
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_product_order_line__price_unit
+msgid "Unit Price"
+msgstr "Precio unitario"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_product_order_line__product_uom
+msgid "Unit of Measure"
+msgstr "Unidad de medida"
+
+#. module: mobile_service_shop
+#: model:product.template,uom_name:mobile_service_shop.mobile_service_advance_product
+#: model:product.template,uom_name:mobile_service_shop.mobile_service_product
+msgid "Units"
+msgstr "Unidades"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__message_unread
+msgid "Unread Messages"
+msgstr "Mensajes no leídos"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Contador de mensajes no leídos"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_product_order_line__product_uom_qty
+msgid "Used Quantity"
+msgstr "Cantidad usada"
+
+#. module: mobile_service_shop
+#: code:addons/mobile_service_shop/wizard/mobile_create_invoice.py:0
+#, python-format
+msgid "Used quantity is less than invoiced quantity"
+msgstr "La cantidad utilizada es menor que la cantidad facturada"
+
+#. module: mobile_service_shop
+#: code:addons/mobile_service_shop/models/mobile_service.py:0
+#, python-format
+msgid "Used quantity is less than quantity stock move posted. "
+msgstr "La cantidad utilizada es menor que la cantidad de movimiento de stock contabilizado."
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__warranty_number
+msgid "Warranty No "
+msgstr "Núm. Garantía"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__website_message_ids
+msgid "Website Messages"
+msgstr "Mensajes del sitio web"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,help:mobile_service_shop.field_mobile_service__website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicación del sitio web"
+
+#. module: mobile_service_shop
+#: code:addons/mobile_service_shop/models/mobile_service.py:0
+#, python-format
+msgid "You cannot delete an assigned service request"
+msgstr "No puede eliminar una solicitud de servicio asignada"
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_service_request_form_view
+msgid "ZIP"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model,name:mobile_service_shop.model_brand_model
+msgid "brand.model"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,help:mobile_service_shop.field_product_product__model_colour
+#: model:ir.model.fields,help:mobile_service_shop.field_product_template__model_colour
+msgid "colour for the part"
+msgstr "Color para la pieza"
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,field_description:mobile_service_shop.field_brand_model__image_medium
+#: model:ir.model.fields,field_description:mobile_service_shop.field_mobile_service__image_medium
+msgid "image"
+msgstr "Imagen"
+
+#. module: mobile_service_shop
+#: model:ir.model,name:mobile_service_shop.model_mobile_brand
+msgid "mobile.brand"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model,name:mobile_service_shop.model_mobile_complaint
+msgid "mobile.complaint"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model,name:mobile_service_shop.model_mobile_complaint_description
+msgid "mobile.complaint.description"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model,name:mobile_service_shop.model_mobile_complaint_tree
+msgid "mobile.complaint.tree"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model,name:mobile_service_shop.model_mobile_invoice
+msgid "mobile.invoice"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model,name:mobile_service_shop.model_mobile_service
+msgid "mobile.service"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.ui.menu,name:mobile_service_shop.mobile_service_shop_menu
+msgid "mobile_service_shop_menu"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model_terms:ir.ui.view,arch_db:mobile_service_shop.mobile_brand_model_view_kanban
+msgid "model:"
+msgstr "modelo"
+
+#. module: mobile_service_shop
+#: model:ir.model,name:mobile_service_shop.model_product_order_line
+msgid "product.order.line"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model,name:mobile_service_shop.model_report_mobile_service_shop_mobile_service_ticket_template
+msgid "report.mobile_service_shop.mobile_service_ticket_template"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model,name:mobile_service_shop.model_terms_conditions
+msgid "terms.conditions"
+msgstr ""
+
+#. module: mobile_service_shop
+#: model:ir.model.fields,help:mobile_service_shop.field_mobile_service__warranty_number
+msgid "warranty details"
+msgstr "Detalles de la garantía"

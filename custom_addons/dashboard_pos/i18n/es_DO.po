@@ -1,0 +1,191 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* dashboard_pos
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-02 17:21+0000\n"
+"PO-Revision-Date: 2021-10-02 17:21+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: dashboard_pos
+#. openerp-web
+#: code:addons/dashboard_pos/static/src/xml/pos_dashboard.xml:0
+#, python-format
+msgid "-- select an option --"
+msgstr "-- Seleccione una opción --"
+
+#. module: dashboard_pos
+#. openerp-web
+#: code:addons/dashboard_pos/static/src/xml/pos_dashboard.xml:0
+#: code:addons/dashboard_pos/static/src/xml/pos_dashboard.xml:0
+#, python-format
+msgid "Amount"
+msgstr "Importe"
+
+#. module: dashboard_pos
+#: model:ir.actions.client,name:dashboard_pos.action_pos_dashboard
+#: model:ir.ui.menu,name:dashboard_pos.pos_dashboard
+msgid "Dashboard"
+msgstr "Tablero"
+
+#. module: dashboard_pos
+#. openerp-web
+#: code:addons/dashboard_pos/static/src/xml/pos_dashboard.xml:0
+#, python-format
+msgid "Hourly"
+msgstr "Por Hora"
+
+#. module: dashboard_pos
+#. openerp-web
+#: code:addons/dashboard_pos/static/src/xml/pos_dashboard.xml:0
+#, python-format
+msgid "Monthly"
+msgstr "Mensual"
+
+#. module: dashboard_pos
+#. openerp-web
+#: code:addons/dashboard_pos/static/src/xml/pos_dashboard.xml:0
+#, python-format
+msgid "Name"
+msgstr "Nombre"
+
+#. module: dashboard_pos
+#. openerp-web
+#: code:addons/dashboard_pos/static/src/xml/pos_dashboard.xml:0
+#: code:addons/dashboard_pos/static/src/xml/pos_dashboard.xml:0
+#, python-format
+msgid "Payment Method"
+msgstr "Payment Method"
+
+#. module: dashboard_pos
+#: model:ir.model,name:dashboard_pos.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "Pedidos del TPV"
+
+#. module: dashboard_pos
+#. openerp-web
+#: code:addons/dashboard_pos/static/src/js/pos_dashboard.js:0
+#: code:addons/dashboard_pos/static/src/js/pos_dashboard.js:0
+#, python-format
+msgid "Refund Orders"
+msgstr "Órdenes de reembolso"
+
+#. module: dashboard_pos
+#. openerp-web
+#: code:addons/dashboard_pos/static/src/xml/pos_dashboard.xml:0
+#, python-format
+msgid "SALE REPORT"
+msgstr "REPORTE DE VENTA"
+
+#. module: dashboard_pos
+#. openerp-web
+#: code:addons/dashboard_pos/static/src/xml/pos_dashboard.xml:0
+#, python-format
+msgid "Sale by Salesperson"
+msgstr "Venta por vendedor"
+
+#. module: dashboard_pos
+#. openerp-web
+#: code:addons/dashboard_pos/static/src/xml/pos_dashboard.xml:0
+#, python-format
+msgid "Session"
+msgstr "Sesión"
+
+#. module: dashboard_pos
+#. openerp-web
+#: code:addons/dashboard_pos/static/src/xml/pos_dashboard.xml:0
+#, python-format
+msgid "Session Status"
+msgstr "Estado de Sesión"
+
+#. module: dashboard_pos
+#. openerp-web
+#: code:addons/dashboard_pos/static/src/xml/pos_dashboard.xml:0
+#, python-format
+msgid "Sessions"
+msgstr "Sessiones"
+
+#. module: dashboard_pos
+#. openerp-web
+#: code:addons/dashboard_pos/static/src/xml/pos_dashboard.xml:0
+#, python-format
+msgid "Status"
+msgstr "Estado"
+
+#. module: dashboard_pos
+#. openerp-web
+#: code:addons/dashboard_pos/static/src/js/pos_dashboard.js:0
+#, python-format
+msgid "Today Order"
+msgstr "Pedido de hoy"
+
+#. module: dashboard_pos
+#. openerp-web
+#: code:addons/dashboard_pos/static/src/xml/pos_dashboard.xml:0
+#, python-format
+msgid "Today Orders"
+msgstr "Pedidos de hoy"
+
+#. module: dashboard_pos
+#. openerp-web
+#: code:addons/dashboard_pos/static/src/xml/pos_dashboard.xml:0
+#, python-format
+msgid "Today Refund Order"
+msgstr "Reembolso de hoy"
+
+#. module: dashboard_pos
+#. openerp-web
+#: code:addons/dashboard_pos/static/src/js/pos_dashboard.js:0
+#, python-format
+msgid "Total Order"
+msgstr "Total de pedido"
+
+#. module: dashboard_pos
+#. openerp-web
+#: code:addons/dashboard_pos/static/src/xml/pos_dashboard.xml:0
+#, python-format
+msgid "Total Orders"
+msgstr "Total de pedidos"
+
+#. module: dashboard_pos
+#. openerp-web
+#: code:addons/dashboard_pos/static/src/xml/pos_dashboard.xml:0
+#, python-format
+msgid "Total Refund Orders"
+msgstr "Total Pedido Reembolsado"
+
+#. module: dashboard_pos
+#. openerp-web
+#: code:addons/dashboard_pos/static/src/xml/pos_dashboard.xml:0
+#, python-format
+msgid "Total Sales"
+msgstr "Total venta"
+
+#. module: dashboard_pos
+#. openerp-web
+#: code:addons/dashboard_pos/static/src/xml/pos_dashboard.xml:0
+#, python-format
+msgid "Yearly"
+msgstr "Anual"
+
+#. module: dashboard_pos
+#. openerp-web
+#: code:addons/dashboard_pos/static/src/xml/pos_dashboard.xml:0
+#, python-format
+msgid "orders"
+msgstr "Pedidos"
+
+#. module: dashboard_pos
+#. openerp-web
+#: code:addons/dashboard_pos/static/src/js/pos_dashboard.js:0
+#, python-format
+msgid "sessions"
+msgstr "sessiones"
