@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates id='template' xmlspace='preserve'>
+<t t-extend="Chrome">
+    <t t-jquery=".pos-logo" t-operation="replace">
+
+    </t>
+  </t>
+
+</templates>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+        <template id="assets_backend" name="mytheme assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" href="/remove_menu_item/static/src/css/mycss.css"/>
+                <script type="text/javascript" src="/remove_menu_item/static/src/js/myjs.js"></script>
+            </xpath>
+        </template>
+           <template id="remove_menu_item.login_layout" inherit_id="web.login_layout" name="My Theme Login">
+            <xpath expr="//div[@class='text-center small mt-4 pt-3 border-top']" position="replace">
+                   <div class="text-center small mt-4 pt-3 border-top" t-if="not disable_footer">
+                       <a href="https://www.wilgaisoft.net?utm_source=db&amp;utm_medium=auth" target="_blank">Powered by <span>Wilgaisoft</span></a>
+                   </div>
+            </xpath>
+        </template>
+         <template id="remove_menu_item.superuser" inherit_id="web.login" name="Remove Superuser">
+            <xpath expr="//button[@name='redirect']" position="replace">
+                   <div class="btn btn-link btn-sm btn-block">
+
+                   </div>
+            </xpath>
+        </template>
+
+         <template id="remove_menu_item.donthaveanaccount" inherit_id="auth_signup.login" name="Remove DontHaveAccount">
+            <xpath expr="//div[@class='justify-content-between mt-2 d-flex small']" position="replace">
+                    <div class="justify-content-between mt-2 d-flex small">
+                    <a t-if="reset_password_enabled" t-attf-href="/web/reset_password?{{ keep_query() }}">Reset Password</a>
+                </div>
+            </xpath>
+        </template>
+</odoo>
+

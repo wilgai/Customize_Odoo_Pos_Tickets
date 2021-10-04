@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+  <templates>
+            <t t-extend="UserMenu.Actions">
+            <t t-jquery="a[data-menu='account']">
+
+            this.remove();
+            </t>
+                <t t-jquery="a[data-menu='documentation']">
+
+            this.remove();
+            </t>
+                <t t-jquery="a[data-menu='support']">
+
+            this.remove();
+            </t>
+       </t>
+
+</templates>
